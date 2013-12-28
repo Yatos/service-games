@@ -11,7 +11,7 @@ public class ServerMain{
 	{
 		int i=1;
 		BufferedReader in;
-		dataBaseServer d= new dataBaseServer();
+		DataBaseServer d= new DataBaseServer();
 		String requete="";
 		
 		

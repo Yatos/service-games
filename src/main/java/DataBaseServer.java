@@ -1,7 +1,7 @@
 import java.net.Socket;
 import java.net.Socket;
 
-public class dataBaseServer {
+public class DataBaseServer {
 
 	
 		static String [] nameplayers =new String[100];// cree un tableau ou on met le nom des joueur
@@ -10,12 +10,12 @@ public class dataBaseServer {
 		static Socket socket[] =  new Socket[100];// declare un tableau de socket
 		static String requeteServeur[]=new String[100];//cree un tableau pour envoyer les requete au bon client
 
-		public dataBaseServer()
+		public DataBaseServer()
 		{
 			
 		}
 		
-		public dataBaseServer(int numeroServer)//recupere le numero du serveur
+		public DataBaseServer(int numeroServer)//recupere le numero du serveur
 		{
 			this.numeroServer=numeroServer;//le met dans une variable locale que l'on peut utilise
 			
